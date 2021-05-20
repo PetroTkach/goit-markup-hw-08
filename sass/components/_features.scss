@@ -1,0 +1,51 @@
+.features {
+    padding-top: 91px;
+    padding-bottom: 94px;
+  }
+
+  .features__list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+  
+  .features__item {
+    width: 270px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  
+  .features__item:last-child {
+    margin-right: 0;
+  }
+  
+  .features__thumb {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+  
+    background-color: var(--team-color);
+    border-radius: 4px;
+  }
+  
+  .features__title {
+    color: var(--title-text-color);
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    margin-top: auto;
+    margin-bottom: 10px;
+  }

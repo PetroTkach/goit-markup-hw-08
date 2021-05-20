@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    z-index: 10;
+    background-color: var(--add-color);
+    border-bottom: 1px solid var(--line-footer);
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  
+  
+  .header-nav__list,
+  .contact-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav__list {
+    display: flex;
+  }
+  
+  .header-nav__item {
+    margin-right: 40px;
+  }
+  .header-nav__item:last-child {
+    margin-right: 0;
+  }
+  
+  .header-nav__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: var(--title-text-color);
+  
+    text-decoration: none;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+  }
+  .header-nav__link:hover,
+  .header-nav__link:focus {
+    color: var(--accent-color);
+  }
+  .header-nav__link--сurrent {
+    position: relative;
+  
+    color: var(--accent-color);
+  }
+  .header-nav__link--сurrent::after {
+    position: absolute;
+    bottom: 0;
+  
+    content: "";
+  
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
+
+  .contact-nav {
+    display: flex;
+    
+    margin-left: auto;
+  
+    list-style: none;
+  }
+  
+  .contact-nav__item {
+    margin-right: 50px;
+  }
+  .contact-nav__item:last-child {
+    margin-right: 0;
+  }
+  
+  .contact-nav__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: var(--primary-text-color);
+  
+    text-decoration: none;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+  }
+  
+  .contact-nav__link:hover,
+  .contact-nav__link:focus {
+    color: var(--accent-color);
+  }
+  
+  .contact-nav__icon {
+    margin-right: 10px;
+    color: var (--primary-text-color);
+  }
+  .contact-nav__icon {
+    fill: currentColor;
+  }
