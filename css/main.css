@@ -85,12 +85,16 @@ textarea {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -415,6 +419,13 @@ textarea {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1200px) {
+  .hero__title {
+    max-width: 360px;
+    font-size: 26px;
+  }
+}
+
 .hero__button {
   border: none;
   border-radius: 4px;
@@ -666,6 +677,13 @@ textarea {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1200px) {
+  .features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .features__list {
   max-width: 450px;
   margin-top: 0;
@@ -680,14 +698,29 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .features__list {
+    max-width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .features__item {
   margin-top: 0;
   margin-bottom: 0;
-  flex-basis: calc((100% - 30px) / 2);
 }
 
-.features__item:last-child {
-  margin-right: 0;
+@media screen and (min-width: 768px) {
+  .features__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__item {
+    flex-basis: calc((100% - 30px) / 4);
+  }
 }
 
 .features__thumb {
@@ -703,7 +736,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .features__thumb {
-    max-width: 354px;
+    width: 354px;
   }
 }
 
@@ -739,6 +772,12 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 114px;
+}
+
+@media screen and (max-width: 1200px) {
+  .work {
+    display: none;
+  }
 }
 
 .work__title {
@@ -793,9 +832,15 @@ textarea {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1200px) {
+  .team {
+    padding-top: 60px;
+  }
+}
+
 .title {
-  font-style: normal;
   margin-bottom: 50px;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.19;
@@ -804,10 +849,24 @@ textarea {
   color: #212121;
 }
 
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+
 .team__list {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .team__item {
@@ -815,6 +874,12 @@ textarea {
   background-color: var(--add-color);
   margin-right: 30px;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .team__item {
+    margin-right: 0;
+  }
 }
 
 .team__item:last-child {
