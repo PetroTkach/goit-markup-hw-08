@@ -29,12 +29,17 @@
     transition: transform 250ms var(--cubic-bezier);
   
     padding: 40px;
-    min-width: 528px;
+    width: 528px;
     min-height: 581px;
   
     background-color: var(--add-color);
     box-shadow: var(--shadow);
     border-radius: 4px;
+
+    @media screen and (max-width:1199.98px) {
+      max-width: 450px;
+      max-height: 609px;
+    }
   }
   
   .modal__button {
@@ -73,6 +78,12 @@
     letter-spacing: 0.03em;
     color: var(--text-color);
     margin-bottom: 12px;
+
+    @media screen and (max-width:1199.98px) {
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    }
   }
   
   .modal-form {
@@ -80,6 +91,12 @@
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (max-width:1199.98px) {
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    }
   }
   
   
