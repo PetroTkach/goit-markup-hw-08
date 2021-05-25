@@ -55,26 +55,57 @@
             >
           </li>
         </ul>
+
+        <button class="mobile-menu__button" data-menu-button>
+          <svg class="mobile-menu__icon" width="40" height="40">
+            <use class="mobile-menu__icon-menu" href="./images/icon-sprite.svg#icon-menu"></use>
+            <use class="mobile-menu__icon-close" href="./images/icon-sprite.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
     </header>
+
+    <div class="mobile-menu" data-menu>
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item"><a class="mobile-menu__link" href="./index.html">Студия</a>
+        </li>
+        <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link--current" href="./portfolio.html">Портфолио</a></li>
+        <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Контакты</a></li>
+      </ul>
+    
+      <ul class="mobile-menu-contact__list">
+        <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__link-tel" href="tel:+380961111111">+38 096 111
+            11 11</a></li>
+        <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__link-mail"
+            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
+    
+      <ul class="mobile-menu-socials__list">
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">Instagram</a></li>
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">Twitter</a></li>
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">Facebook</a></li>
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">LinkedIn</a></li>
+      </ul>
+    </div>
 
     <!-- Портфоліо -->
     <main>
       <section class="portfolio">
+        <div class="container">
         <ul class="filters__list">
-          <li class="filters__item">
+          <li class="filters__item filters__item--bottom">
             <button type="button" class="filters__button">Все</button>
           </li>
-          <li class="filters__item">
+          <li class="filters__item filters__item--bottom">
             <button type="button" class="filters__button">Веб-сайты</button>
           </li>
-          <li class="filters__item">
+          <li class="filters__item filters__item--bottom">
             <button type="button" class="filters__button">Приложения</button>
           </li>
           <li class="filters__item">
             <button type="button" class="filters__button">Дизайн</button>
           </li>
-          <li>
+          <li class="filters__item">
             <button type="button" class="filters__button">Маркетинг</button>
           </li>
         </ul>
@@ -83,7 +114,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img11.jpg" alt="Ноутбук" width="370" />
+                  <img src="./images/img11.jpg" alt="Ноутбук" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -108,7 +139,6 @@
                   <img
                     src="./images/img22.jpg"
                     alt="Баскетболисты"
-                    width="370"
                   />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
@@ -134,7 +164,6 @@
                   <img
                     src="./images/img33.jpg"
                     alt="Лого ресторану"
-                    width="370"
                   />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
@@ -157,7 +186,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img44.jpg" alt="Наушники" width="370" />
+                  <img src="./images/img44.jpg" alt="Наушники" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -179,7 +208,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img55.jpg" alt="Две коробки" width="370" />
+                  <img src="./images/img55.jpg" alt="Две коробки" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -201,7 +230,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img66.jpg" alt="Монитор" width="370" />
+                  <img src="./images/img66.jpg" alt="Монитор" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -223,7 +252,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img77.jpg" alt="Книга" width="370" />
+                  <img src="./images/img77.jpg" alt="Книга" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -245,7 +274,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img88.jpg" alt="Логотип" width="370" />
+                  <img src="./images/img88.jpg" alt="Логотип" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -267,7 +296,7 @@
             <article class="portfolio__article">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img src="./images/img99.jpg" alt="Ноутбук" width="370" />
+                  <img src="./images/img99.jpg" alt="Ноутбук" />
                   <div class="portfolio__overlay">
                     <p class="portfolio__description">
                       Технокряк это современная площадка распространения
@@ -285,39 +314,26 @@
             </article>
           </li>
         </ul>
+       </div>
       </section>
     </main>
 
     <!-- Футер -->
     <footer class="footer">
       <div class="container footer__container">
-        <!-- Контактні дані -->
-        <div>
-          <a href="./index.html" class="footer__link"
-            ><span class="footer__link-web">Web</span>Studio</a
-          >
+        <div class="footer__style">
+          <a href="./index.html" class="footer__link"><span class="footer__link-web">Web</span>Studio</a>
           <address class="address">
             <ul>
               <li class="address__item">
-                <a
-                  href="https://goo.gl/maps/rYCr92r1BttdTYW5A"
-                  class="address__link"
-                  target="_blank"
-                  rel="noopener noferrer"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+                <a href="https://goo.gl/maps/rYCr92r1BttdTYW5A" class="address__link" target="_blank"
+                  rel="noopener noferrer">г. Киев, пр-т Леси Украинки, 26</a>
               </li>
               <li class="address__item">
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="address__link address__link--color"
-                  >info@devstudio.com</a
-                >
+                <a href="mailto:info@devstudio.com" class="address__link address__link--color">info@devstudio.com</a>
               </li>
-              <li>
-                <a href="tel:+380961111111" class="address__link address__link--color"
-                  >+38 096 111 11 11</a
-                >
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__link address__link--color">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -326,29 +342,25 @@
           <h2 class="network__text">присоединяйтесь</h2>
           <ul class="network__list">
             <li class="network__item">
-              <a href="#" class="network__link"
-                ><svg class="network__icon" width="20" height="20">
+              <a href="#" class="network__link"><svg class="network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagramw"></use>
                 </svg>
               </a>
             </li>
             <li class="network__item">
-              <a href="#" class="network__link"
-                ><svg class="network__icon" width="20" height="20">
+              <a href="#" class="network__link"><svg class="network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitterw"></use>
                 </svg>
               </a>
             </li>
             <li class="network__item">
-              <a href="#" class="network__link"
-                ><svg class="network__icon" width="20" height="20">
+              <a href="#" class="network__link"><svg class="network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebookw"></use>
                 </svg>
               </a>
             </li>
             <li class="network__item">
-              <a href="#" class="network__link"
-                ><svg class="network__icon" width="20" height="20">
+              <a href="#" class="network__link"><svg class="network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedinw"></use>
                 </svg>
               </a>
@@ -360,14 +372,7 @@
           <div class="form">
             <div class="form__mail">
               <label for="mail"></label>
-              <input
-              class="form__input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-                autocomplete="off"
-              />
+              <input class="form__input" type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" />
             </div>
             <button class="form__button" type="submit">
               Подписаться
@@ -379,12 +384,13 @@
         </div>
       </div>
     </footer>
-    <script>
+    <script src="js/menu.js"></script>
+    <!-- <script>
       const { height: pageHeaderHeight } = document
         .querySelector(".header")
         .getBoundingClientRect();
 
       document.body.style.paddingTop = `${pageHeaderHeight}px`;
-    </script>
+    </script> -->
   </body>
 </html>
