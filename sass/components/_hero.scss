@@ -27,6 +27,10 @@
     padding-top: 118px;
     padding-bottom: 118px;   
   }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 280px; 
+  }
 }
 
 .hero__title {

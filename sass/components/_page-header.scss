@@ -17,7 +17,7 @@
 
   @media screen and (min-width: 1200px) {
     z-index: 10;
-    position: fixed;
+    position: fixed;    
   }
 }
 
@@ -122,7 +122,7 @@
 
     &:last-child {
       padding-top: 0;
-      padding-bottom: 21px;
+      padding-bottom: 0;
     }
   }
 }

@@ -12,6 +12,12 @@
     width: 100%;
     margin-bottom: 60px;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-left: 76px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
 }
 
 .footer__link {
@@ -53,8 +59,6 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 8px;
-
-
   }
 }
 
@@ -81,6 +85,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-left: 165px;
+    text-align: center;
   }
 }
 
@@ -146,9 +155,10 @@
 .mailing {
   margin-left: 93px;
 
-  @media screen and (max-width: 767.98px) {
-    width: 100%;
-    margin-left: 0;
+  @media screen and (max-width: 1199.98px) {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -161,7 +171,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 1199.98px) {
     text-align: center;
   }
 }
@@ -170,7 +180,7 @@
   display: flex;
   margin-top: 20px;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 1199.98px) {
     display: block;
   }
 }
@@ -178,7 +188,7 @@
 .form__mail {
   margin-right: 12px;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 1199.98px) {
     margin-right: 0;
   }
 }
@@ -204,7 +214,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 1199.98px) {
     width: 100%;
   }
 }
@@ -231,7 +241,7 @@
   border: 0;
   cursor: pointer;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 1199.98px) {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;

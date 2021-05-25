@@ -114,6 +114,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer__container {
+    flex-wrap: wrap;
+  }
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -245,7 +251,7 @@ textarea {
   }
   .contact-nav__item:last-child {
     padding-top: 0;
-    padding-bottom: 21px;
+    padding-bottom: 0;
   }
 }
 
@@ -298,6 +304,14 @@ textarea {
   .footer__style {
     width: 100%;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer__style {
+    margin-left: 76px;
+    margin-bottom: 60px;
+    text-align: center;
   }
 }
 
@@ -371,6 +385,13 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .network {
+    margin-left: 165px;
+    text-align: center;
+  }
+}
+
 .network__text {
   margin-bottom: 20px;
   font-family: Roboto;
@@ -433,10 +454,11 @@ textarea {
   margin-left: 93px;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .mailing {
-    width: 100%;
-    margin-left: 0;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -450,7 +472,7 @@ textarea {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .mailing__title {
     text-align: center;
   }
@@ -461,7 +483,7 @@ textarea {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .form {
     display: block;
   }
@@ -471,7 +493,7 @@ textarea {
   margin-right: 12px;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .form__mail {
     margin-right: 0;
   }
@@ -496,7 +518,7 @@ textarea {
   border-radius: 4px;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .form__input {
     width: 100%;
   }
@@ -524,7 +546,7 @@ textarea {
   cursor: pointer;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .form__button {
     margin-left: auto;
     margin-right: auto;
@@ -559,6 +581,12 @@ textarea {
     height: 400px;
     padding-top: 118px;
     padding-bottom: 118px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 280px;
   }
 }
 
