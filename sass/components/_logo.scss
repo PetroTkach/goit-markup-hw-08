@@ -11,11 +11,14 @@
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 1199.98px) {
     font-size: 24px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 88px;
   }
+
+
 }
 
 .header-nav__logo-web {
