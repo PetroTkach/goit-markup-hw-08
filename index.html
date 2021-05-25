@@ -55,8 +55,34 @@
             >
           </li>
         </ul>
+        <button class="mobile-menu__button" data-menu-button>
+        <svg class="mobile-menu__icon" width="40" height="40">
+          <use class="mobile-menu__icon-menu" href="./images/icon-sprite.svg#icon-menu"></use>
+          <use class="mobile-menu__icon-close" href="./images/icon-sprite.svg#icon-close"></use>
+        </svg>
+        </button>       
       </div>
     </header>
+
+    <div class="mobile-menu" data-menu>
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item"><a class="mobile-menu__link" href="./index.html">Студия</a></li>
+        <li class="mobile-menu__item"><a class="mobile-menu__link" href="./portfolio.html">Портфолио</a></li>
+        <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Контакты</a></li>
+      </ul>
+
+      <ul class="mobile-menu-contact__list">
+        <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
+
+      <ul class="mobile-menu-socials__list">
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">Instagram</a></li>
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">Twitter</a></li>
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">Facebook</a></li>
+        <li class="mobile-menu-socials__item"><a class="mobile-menu-socials__link" href="">LinkedIn</a></li>
+      </ul>
+    </div>
 
     <main class="section">
      
@@ -587,6 +613,7 @@
       document.body.style.paddingTop = `${pageHeaderHeight}px`;
     </script>
     <script src="./js/modal.js"></script>
+    <script src="js/menu.js"></script>
     <script>
       (() => {
         document
