@@ -110,6 +110,12 @@
   border: 1px solid var(--card-border);
 }
 
+.portfolio__box--bottom {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    padding-bottom: 56px;
+  }
+}
+
 .portfolio__title {
   color: var(--title-text-color);
 

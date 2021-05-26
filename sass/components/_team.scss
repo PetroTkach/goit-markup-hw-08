@@ -70,9 +70,28 @@
   margin-right: 0;
 }
 
+.team__thumb {
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    width: 450px;
+  }
+}
+
 .team__box {
-  padding-top: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 30px;
   padding-bottom: 30px;
+  }
 }
 
 .team__title {

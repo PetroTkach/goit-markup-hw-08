@@ -576,7 +576,7 @@ textarea {
   padding-bottom: 200px;
   padding-top: 200px;
   background-color: var(--bg-color);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/desktop/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -588,6 +588,13 @@ textarea {
     height: 400px;
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile/hero/hero.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet/hero/hero.jpg);
   }
 }
 
@@ -1127,9 +1134,34 @@ textarea {
   margin-right: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .team__thumb {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .team__thumb {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.98px) {
+  .team__thumb {
+    width: 450px;
+  }
+}
+
 .team__box {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team__box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .team__title {
@@ -1423,6 +1455,12 @@ textarea {
 .portfolio__box {
   padding: 20px 24px;
   border: 1px solid var(--card-border);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .portfolio__box--bottom {
+    padding-bottom: 56px;
+  }
 }
 
 .portfolio__title {

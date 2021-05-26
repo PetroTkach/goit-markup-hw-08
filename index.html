@@ -158,12 +158,17 @@
         <ul class="work__list">
           <li class="work__item">
             <div class="work__thumb">
-              <img
-                src="./images/img.jpg"
-                class="img"
-                alt="Рабочий стол, планшет"
-                width="370"
-              />
+              <picture>                
+                <source srcset="
+                    ./images/desktop/work/work1.webp 1x,
+                    ./images/desktop/work/work1_@2x.webp 2x"
+                   media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="
+                    ./images/desktop/work/work1.jpg 1x,
+                    ./images/desktop/work/work1_@2x.jpg 2x" 
+                    media="(min-width: 1200px)" type="image/jpg" />
+                <img src="./images/desktop/work/work1.jpg" class="img" alt="Десктопные приложения" width="370" />
+              </picture>              
               <div class="work__overlay">
                 <p>Десктопные приложения</p>
               </div>
@@ -171,12 +176,17 @@
           </li>
           <li class="work__item">
             <div class="work__thumb">
-              <img
-                src="./images/img1.jpg"
-                class="img"
-                alt="Смартфон, ноутбук"
-                width="370"
-              />
+              <picture>
+                <source srcset="
+                    ./images/desktop/work/work2.webp 1x,
+                    ./images/desktop/work/work2_@2x.webp 2x" 
+                    media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                    ./images/desktop/work/work2.jpg 1x,
+                    ./images/desktop/work/work2_@2x.jpg 2x" 
+                    media="(min-width: 1200px)" type="image/jpg" />
+                <img src="./images/desktop/work/work2.jpg" class="img" alt="Мобильные приложения" width="370" />
+              </picture>
               <div class="work__overlay">
                 <p>Мобильные приложения</p>
               </div>
@@ -184,12 +194,17 @@
           </li>
           <li class="work__item">
             <div class="work__thumb">
-              <img
-                src="./images/img2.jpg"
-                class="img"
-                alt="Планшет"
-                width="370"
-              />
+              <picture>
+                <source srcset="
+                    ./images/desktop/work/work3.webp 1x,
+                    ./images/desktop/work/work3_@2x.webp 2x" 
+                    media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                    ./images/desktop/work/work3.jpg 1x,
+                    ./images/desktop/work/work3_@2x.jpg 2x" 
+                    media="(min-width: 1200px)" type="image/jpg" />
+                <img src="./images/desktop/work/work3.jpg" class="img" alt="Дизайнерские решения" width="370" />
+              </picture>
               <div class="work__overlay">
                 <p>Дизайнерские решения</p>
               </div>
@@ -205,7 +220,33 @@
           <ul class="team__list">
             <li class="team__item">
               <div class="team__thumb">
-                <img src="./images/ID.jpg" alt="Игорь Демьяненко" />
+                <picture>
+                  <source srcset="
+                      ./images/desktop/team/team1.webp 1x,
+                      ./images/desktop/team/team1_@2x.webp 2x" 
+                      media="(min-width: 1200px)" type="image/webp" />
+                      <source srcset="
+                      ./images/tablet/team/team1.webp 1x,
+                      ./images/tablet/team/team1_@2x.webp 2x" 
+                      media="(min-width: 768px)" type="image/webp" />
+                      <source srcset="
+                      ./images/mobile/team/team1.webp 1x,
+                      ./images/mobile/team/team1_@2x.webp 2x" 
+                      media="(max-width: 767.98px)" type="image/webp" />
+                      <source srcset="
+                      ./images/desktop/team/team1.jpg 1x,
+                      ./images/desktop/team/team1_@2x.jpg 2x" 
+                      media="(min-width: 1200px)" type="image/jpg" />
+                      <source srcset="
+                      ./images/tablet/team/team1.jpg 1x,
+                      ./images/tablet/team/team1_@2x.jpg 2x" 
+                      media="(min-width: 768px)" type="image/jpg" />
+                      <source srcset="
+                      ./images/mobile/team/team1.jpg 1x,
+                      ./images/mobile/team/team1_@2x.jpg 2x" 
+                      media="(max-width: 767.98px)" type="image/jpg" />
+                  <img src="./images/mobile/team/team1.jpg" alt="Игорь Демьяненко" width="450" height="460" />
+                </picture>
               </div>
               <div class="team__box">
                 <h3 class="team__title">Игорь Демьяненко</h3>
@@ -252,7 +293,28 @@
             </li>
             <li class="team__item">
               <div class="team__thumb">
-                <img src="./images/OR.jpg" alt="Ольга Репина"/>
+                <picture>
+                  <source srcset="
+                  ./images/desktop/team/team2.webp 1x,
+                  ./images/desktop/team/team2_@2x.webp 2x" media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="
+                  ./images/tablet/team/team2.webp 1x,
+                  ./images/tablet/team/team2_@2x.webp 2x" media="(min-width: 768px)" type="image/webp" />
+                  <source srcset="
+                  ./images/mobile/team/team2.webp 1x,
+                  ./images/mobile/team/team2_@2x.webp 2x" media="(max-width: 767.98px)" type="image/webp" />
+                  <source srcset="
+                  ./images/desktop/team/team2.jpg 1x,
+                  ./images/desktop/team/team2_@2x.jpg 2x" media="(min-width: 1200px)" type="image/jpg" />
+                  <source srcset="
+                  ./images/tablet/team/team2.jpg 1x,
+                  ./images/tablet/team/team2_@2x.jpg 2x" media="(min-width: 768px)" type="image/jpg" />
+                  <source srcset="
+                  ./images/mobile/team/team2.jpg 1x,
+                  ./images/mobile/team/team2_@2x.jpg 2x" 
+                  media="(max-width: 767.98px)" type="image/jpg" />
+                  <img src="./images/mobile/team/team2.jpg" alt="Ольга Репина" width="450" height="460" />
+                </picture>                
               </div>
               <div class="team__box">
                 <h3 class="team__title">Ольга Репина</h3>
@@ -299,7 +361,27 @@
             </li>
             <li class="team__item">
               <div class="team__thumb">
-                <img src="./images/NT.jpg" alt="Николай Тарасов"/>
+                <picture>
+                  <source srcset="
+                                  ./images/desktop/team/team3.webp 1x,
+                                  ./images/desktop/team/team3_@2x.webp 2x" media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="
+                                  ./images/tablet/team/team3.webp 1x,
+                                  ./images/tablet/team/team3_@2x.webp 2x" media="(min-width: 768px)" type="image/webp" />
+                  <source srcset="
+                                  ./images/mobile/team/team3.webp 1x,
+                                  ./images/mobile/team/team3_@2x.webp 2x" media="(max-width: 767.98px)" type="image/webp" />
+                  <source srcset="
+                                  ./images/desktop/team/team3.jpg 1x,
+                                  ./images/desktop/team/team3_@2x.jpg 2x" media="(min-width: 1200px)" type="image/jpg" />
+                  <source srcset="
+                                  ./images/tablet/team/team3.jpg 1x,
+                                  ./images/tablet/team/team3_@2x.jpg 2x" media="(min-width: 768px)" type="image/jpg" />
+                  <source srcset="
+                                  ./images/mobile/team/team3.jpg 1x,
+                                  ./images/mobile/team/team3_@2x.jpg 2x" media="(max-width: 767.98px)" type="image/jpg" />
+                  <img src="./images/mobile/team/team3.jpg" alt="Николай Тарасов" width="450" height="460" />
+                </picture>
               </div>
               <div class="team__box">
                 <h3 class="team__title">Николай Тарасов</h3>
@@ -346,7 +428,32 @@
             </li>
             <li class="team__item">
               <div class="team__thumb">
-                <img src="./images/ME.jpg" alt="Михаил Ермаков"/>
+                <picture>
+                  <source srcset="
+                   ./images/desktop/team/team4.webp 1x,
+                   ./images/desktop/team/team4_@2x.webp 2x" media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source srcset="
+                   ./images/tablet/team/team4.webp 1x,
+                   ./images/tablet/team/team4_@2x.webp 2x" media="(min-width: 768px)"
+                    type="image/webp" />
+                  <source srcset="
+                   ./images/mobile/team/team4.webp 1x,
+                   ./images/mobile/team/team4_@2x.webp 2x" media="(max-width: 767.98px)"
+                    type="image/webp" />
+                  <source srcset="
+                   ./images/desktop/team/team4.jpg 1x,
+                   ./images/desktop/team/team4_@2x.jpg 2x" media="(min-width: 1200px)"
+                    type="image/jpg" />
+                  <source srcset="
+                   ./images/tablet/team/team4.jpg 1x,
+                   ./images/tablet/team/team4_@2x.jpg 2x" media="(min-width: 768px)" type="image/jpg" />
+                  <source srcset="
+                   ./images/mobile/team/team4.jpg 1x,
+                   ./images/mobile/team/team4_@2x.jpg 2x" media="(max-width: 767.98px)"
+                    type="image/jpg" />
+                  <img src="./images/mobile/team/team4.jpg" alt="Михаил Ермаков" width="450" height="460" />
+                </picture>
               </div>
               <div class="team__box">
                 <h3 class="team__title">Михаил Ермаков</h3>
