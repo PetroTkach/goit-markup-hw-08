@@ -14,8 +14,6 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-    margin-left: 76px;
-    margin-bottom: 60px;
     text-align: center;
   }
 }
@@ -48,17 +46,17 @@
 }
 
 .address__item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 
   &:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 767.98px) {
     display: table;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
 }
 
@@ -88,8 +86,8 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-    margin-left: 165px;
     text-align: center;
+    margin-left: 0;
   }
 }
 
@@ -155,10 +153,14 @@
 .mailing {
   margin-left: 93px;
 
-@media screen  and (min-width: 320px) and (max-width: 479.98px) {
+  @media screen and (min-width: 320px) and (max-width: 479.98px) {
     width: 290px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (min-width: 678px) and (max-width: 1199.98px) {
+    margin-top: 60px;
   }
 
   @media screen and (min-width: 480px) and (max-width: 1199.98px) {

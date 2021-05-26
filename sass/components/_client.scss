@@ -78,7 +78,6 @@
 }
 
 .client__link {
-  width: 170px;
   height: 90px;
   display: flex;
   align-items: center;
@@ -90,8 +89,12 @@
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
 
-  @media screen and (max-width: 767.98px) {
-    max-width: 210px;
+  @media screen and (max-width: 1199.98px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
   }
 }
 
