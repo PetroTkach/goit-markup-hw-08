@@ -649,7 +649,7 @@ textarea {
   background-color: var(--back-modal);
   opacity: 1;
   transition: opacity 250ms var(--cubic-bezier);
-  z-index: 10;
+  z-index: 20;
 }
 
 .backdrop.is-hidden {
@@ -984,6 +984,12 @@ textarea {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767.98px) {
+  .features__title {
+    text-align: center;
+  }
+}
+
 .features__text {
   font-style: normal;
   font-weight: normal;
@@ -1252,6 +1258,7 @@ textarea {
 @media screen and (max-width: 1199.98px) {
   .client__title {
     font-size: 28px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1593,7 +1600,7 @@ textarea {
   position: absolute;
   right: 15px;
   top: 10px;
-  z-index: 99;
+  z-index: 15;
   width: 40px;
   height: 40px;
   margin-left: auto;
