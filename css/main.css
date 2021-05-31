@@ -1718,4 +1718,8 @@ textarea {
   text-decoration: none;
   color: #2196f3;
 }
+
+.menu-is-open {
+  overflow: hidden;
+}
 /*# sourceMappingURL=main.css.map */
