@@ -23,6 +23,8 @@
 
   transition: 250ms;
 
+  overflow: hidden;
+
   &.is-open {
     left: 0;
   }
@@ -134,8 +136,4 @@
 .mobile-menu-socials__link {
   text-decoration: none;
   color: #2196f3;
-}
-
-.menu-is-open {
-  overflow: hidden;
 }
