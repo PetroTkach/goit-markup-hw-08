@@ -1594,6 +1594,7 @@ textarea {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 48px 83px 48px 40px;
   background-color: #fff;
   font-family: Roboto;
@@ -1652,10 +1653,6 @@ textarea {
   display: block;
 }
 
-.mobile-menu__list {
-  margin-bottom: 302px;
-}
-
 .mobile-menu__item {
   margin-bottom: 32px;
 }
@@ -1675,10 +1672,6 @@ textarea {
 
 .mobile-menu__link--current {
   color: #2196f3;
-}
-
-.mobile-menu-contact__list {
-  margin-bottom: 64px;
 }
 
 .mobile-menu-contact__item:not(:last-child) {
